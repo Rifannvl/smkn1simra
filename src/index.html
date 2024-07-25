@@ -1,0 +1,1232 @@
+<!DOCTYPE html>
+<html lang="en" class="bg-[#FCF8F1] overflow-x-hidden">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="/src/assets/logo-smk-removebg-preview.png"
+      type="image/x-icon"
+    />
+    <title>SMK NEGERI 1 SIMPANG RAYA</title>
+    <!-- link data aos(anaimated on scroll) -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- link tailwind css -->
+    <link rel="stylesheet" href="/src/output.css" />
+  </head>
+  <body class="bg-[#f1f4fc] overflow-x-hidden">
+    <!-- navbar -->
+    <header>
+      <nav class="container bg-blue-700 rounded-xl mt-2">
+        <div class="navbar text-white">
+          <div class="flex-1">
+            <img
+              class="w-10"
+              src="/src/assets/logo-smk-removebg-preview.png"
+              alt=""
+            />
+            <a class="btn btn-ghost text-xl">SMKN1SIMRA</a>
+          </div>
+          <!-- navbar desktop -->
+          <div class="flex-none hidden lg:block">
+            <ul class="menu menu-horizontal px-1 text-lg">
+              <li><a href="#">Homepage</a></li>
+              <li><a href="#kejuruan">Jurusan</a></li>
+              <li><a href="#about">About</a></li>
+              <!-- dropdown -->
+              <li tabindex="0">
+                <details>
+                  <summary>Parent</summary>
+                  <ul class="bg-base-100 rounded-t-none p-2">
+                    <li><a href="#partner">partner</a></li>
+                    <li><a href="#siswa">jumlah siswa</a></li>
+                    <li><a href="#alumni">alumni</a></li>
+                    <li><a href="#contact">contact</a></li>
+                  </ul>
+                </details>
+              </li>
+            </ul>
+          </div>
+          <!-- navbar mobile -->
+          <div class="flex-none lg:hidden">
+            <div class="navbar-end">
+              <div class="dropdown dropdown-content dropdown-end">
+                <div
+                  tabindex="0"
+                  role="button"
+                  class="btn btn-ghost btn-circle"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M4 6h16M4 12h16M4 18h7"
+                    />
+                  </svg>
+                </div>
+                <ul
+                  tabindex="0"
+                  class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+                >
+                  <li><a href="#">Homepage</a></li>
+                  <li><a href="#kejuruan">Jurusan</a></li>
+                  <li><a href="#about">About</a></li>
+                  <li><a href="#partner">Partner</a></li>
+                  <li><a href="#siswa">jumlah siswa</a></li>
+                  <li><a href="#alumni">alumni</a></li>
+                  <li><a href="#contact">contact</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- action button -->
+    <div class="relative z-50">
+      <div
+        class="fixed bottom-16 right-16 lg:bottom-10 lg:right-10 text-center"
+      >
+        <button
+          class="btn rounded-full bg-blue-600 animate-bounce w-14 h-14 lg:w-20 lg:h-20"
+        >
+          <a href="#">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="2em"
+              height="4em"
+              viewBox="0 0 15 15"
+            >
+              <path
+                fill="white"
+                fill-rule="evenodd"
+                d="M1.5 1.05a.45.45 0 1 0 0 .9h12a.45.45 0 1 0 0-.9zm2.432 6.382a.45.45 0 1 0 .636.636L7.05 5.586V13.5a.45.45 0 0 0 .9 0V5.586l2.482 2.482a.45.45 0 1 0 .636-.636l-3.25-3.25a.45.45 0 0 0-.636 0z"
+                clip-rule="evenodd"
+              />
+            </svg>
+          </a>
+        </button>
+      </div>
+    </div>
+
+    <!-- hero section -->
+    <div class="bg-white">
+      <section class="bg-[#c1d8ff] bg-opacity-30 py-10 sm:py-16 lg:py-24">
+        <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+          <div class="grid items-center grid-cols-1 gap-12 lg:grid-cols-2">
+            <div data-aos="fade-right data-aos-duration-1000">
+              <p
+                class="text-base font-semibold tracking-wider text-blue-600 uppercase"
+              >
+                lulus smp bingung mau kemana? smk aja!
+              </p>
+              <h1
+                class="mt-4 text-4xl font-bold text-black lg:mt-8 sm:text-6xl xl:text-8xl"
+              >
+                SMK NEGERI 1 SIMPANG RAYA
+              </h1>
+              <p class="mt-4 text-base text-black lg:mt-8 sm:text-xl">
+                Sekolah Menengah Kejuruan yang unggul, berdaya saing, dan
+                berwawasan lingkungan yang lebih luas.
+              </p>
+
+              <a
+                href="#"
+                title=""
+                class="inline-flex items-center px-6 py-4 mt-8 font-semibold text-white transition-all duration-200 bg-blue-600 rounded-full lg:mt-16 hover:bg-blue-700 focus:bg-blue-700"
+                role="button"
+              >
+                Daftar yuk!
+                <svg
+                  class="w-6 h-6 ml-8 -mr-2"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.5"
+                    d="M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z"
+                  />
+                </svg>
+              </a>
+            </div>
+
+            <div data-aos="fade-left data-aos-duration-1000">
+              <img class="w-full" src="/src/assets/hero-image.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- kejuruan -->
+    <section class="py-10 bg-blue-100 sm:py-16 lg:py-24">
+      <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8" id="kejuruan">
+        <div class="max-w-xl mx-auto text-center">
+          <div
+            class="inline-flex px-4 py-1.5 mx-auto rounded-full bg-gradient-to-r from-fuchsia-600 to-blue-600"
+          >
+            <p
+              class="text-xs font-semibold tracking-widest text-white uppercase"
+            >
+              smk negeri 1 simpang raya
+            </p>
+          </div>
+          <h2
+            class="mt-6 text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl"
+          >
+            Jurusan di Smk Negeri 1 Simpang Raya
+          </h2>
+        </div>
+
+        <div
+          class="grid grid-cols-1 gap-5 mt-12 sm:grid-cols-2 lg:mt-20 lg:gap-x-12"
+        >
+          <!-- Agribisnis -->
+          <div
+            class="transition-all duration-200 bg-white hover:shadow-xl"
+            data-aos="fade-right"
+            data-aos-duration="3000"
+          >
+            <div class="py-10 px-9">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="3em"
+                height="3em"
+                viewBox="0 0 48 48"
+              >
+                <g fill="none">
+                  <path d="M0 0h48v48H0z" />
+                  <path
+                    fill="#0056d6"
+                    fill-rule="evenodd"
+                    d="M34 16c0 5.523-4.477 10-10 10s-10-4.477-10-10S18.477 6 24 6s10 4.477 10 10m-2 0a8 8 0 1 1-16 0a8 8 0 0 1 16 0"
+                    clip-rule="evenodd"
+                  />
+                  <path
+                    fill="#0056d6"
+                    d="M39 24c0 1.533-1.127 2.69-2 3.355v2.346q.194-.18.438-.317c1.383-.774 3.163-.2 4.034.172a.804.804 0 0 1 .488.836c-.103.909-.47 2.62-1.785 3.231c-1.09.507-2.343.408-3.175.246v1.832q.194-.18.438-.317c1.383-.773 3.163-.2 4.034.172a.804.804 0 0 1 .488.836c-.103.909-.47 2.62-1.785 3.231c-1.09.507-2.343.408-3.175.246V41a1 1 0 1 1-2 0v-1.13c-.832.161-2.085.26-3.175-.247c-1.315-.61-1.683-2.322-1.785-3.231a.804.804 0 0 1 .488-.836c.87-.372 2.65-.945 4.034-.172q.244.138.438.317V33.87c-.832.162-2.085.26-3.175-.246c-1.315-.61-1.683-2.322-1.785-3.231a.804.804 0 0 1 .488-.836c.87-.372 2.65-.946 4.034-.172q.244.137.438.317v-2.346c-.873-.666-2-1.822-2-3.355c0-1.903 1.738-3.227 2.569-3.75a.8.8 0 0 1 .862 0C37.261 20.773 39 22.097 39 24M6 35.538c0-3.235 3.69-5.2 8-6.31V35h-1a1 1 0 0 0-1 1v6H6zM24 36c-3.5 0-6-1-6-1h-2v-6.22a43 43 0 0 1 4-.574V30a2 2 0 0 0 2 2h4c.532 0 1.016-.208 1.374-.547q.05.165.105.337a8.6 8.6 0 0 0 .74 1.669q.121.206.283.437a3 3 0 0 0-1.406 1.847C26.21 35.89 25.16 36 24 36m0 2a21 21 0 0 0 3.191-.247c.068.293.162.652.288 1.037c.118.356.277.778.492 1.21H14v-3h3.651l.177.059c.336.108.811.249 1.401.388A21 21 0 0 0 24 38"
+                  />
+                </g>
+              </svg>
+              <h3 class="mt-8 text-lg font-semibold text-black">
+                Agribisnis Pengolahan Hasil Panen
+              </h3>
+              <p class="mt-4 text-base text-gray-600">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit.
+              </p>
+            </div>
+          </div>
+          <!-- multimedia -->
+          <div
+            class="transition-all duration-200 bg-white hover:shadow-xl"
+            data-aos="fade-down"
+            data-aos-duration="3000"
+          >
+            <div class="py-10 px-9">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="3em"
+                height="3em"
+                viewBox="0 0 14 14"
+              >
+                <path
+                  fill="none"
+                  stroke="#0056d6"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M3.5 6.5a3 3 0 1 0 0-6a3 3 0 0 0 0 6m7 0a2 2 0 1 0 0-4a2 2 0 0 0 0 4M10 9H4.5a1 1 0 0 0-1 1v2.5a1 1 0 0 0 1 1H10a1 1 0 0 0 1-1V10a1 1 0 0 0-1-1m3.5 1v2.5"
+                />
+              </svg>
+              <h3 class="mt-8 text-lg font-semibold text-black">
+                Desain Komunikasi Visual
+              </h3>
+              <p class="mt-4 text-base text-gray-600">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit.
+              </p>
+            </div>
+          </div>
+          <!-- teknik komputer dan jaringan -->
+          <div
+            class="transition-all duration-200 bg-white hover:shadow-xl"
+            data-aos="fade-up"
+            data-aos-duration="3000"
+          >
+            <div class="py-10 px-9">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="3em"
+                height="3em"
+                viewBox="0 0 100 100"
+              >
+                <path
+                  fill="#0056d6"
+                  d="M37.328 0c-6.874 0-12.5 5.626-12.5 12.5S30.454 25 37.328 25c1.316 0 2.586-.208 3.78-.59l6.576 13.977c-8.125 5.119-12.366 15.123-9.754 24.87a22.435 22.435 0 0 0 1.959 4.901l-17.75 11.404l-.002-.001C19.839 76.78 16.367 75 12.5 75C5.626 75 0 80.626 0 87.5S5.626 100 12.5 100S25 94.374 25 87.5c0-1.577-.308-3.084-.848-4.477L42.104 71.49c5.418 6.747 14.504 10.055 23.382 7.676c11.98-3.21 19.12-15.577 15.91-27.557a22.347 22.347 0 0 0-5.525-9.77l9.877-12.808A9.878 9.878 0 0 0 90 30c5.493 0 10-4.507 10-10s-4.507-10-10-10s-10 4.507-10 10c0 2.539.97 4.859 2.549 6.629l-9.707 12.586c-5.3-3.826-12.213-5.335-19.002-3.516c-.892.24-1.754.535-2.59.871l-6.58-13.986c3.116-2.28 5.158-5.95 5.158-10.084c0-6.874-5.626-12.5-12.5-12.5m0 5c4.172 0 7.5 3.328 7.5 7.5c0 4.172-3.328 7.5-7.5 7.5a7.462 7.462 0 0 1-7.5-7.5c0-4.172 3.328-7.5 7.5-7.5M90 15c2.791 0 5 2.209 5 5s-2.209 5-5 5s-5-2.209-5-5s2.209-5 5-5M60.453 37.445c8.504.337 16.175 6.124 18.514 14.762a.6.6 0 0 1 .015.05a.6.6 0 0 1 .012.06C81.813 62.96 75.483 73.9 64.84 76.751c-10.663 2.857-21.637-3.478-24.494-14.14c-2.857-10.663 3.48-21.64 14.142-24.497a19.964 19.964 0 0 1 5.965-.67m-2.34 1.256a20.24 20.24 0 0 0-.773.08c-.023.056.098.135.482.237l.432.027c.479-.194.22-.306-.14-.344m3.76.063c-.293.154-.76.32-1.234.427c.26.93 1.341 3.307 2.638 2.475c-.237.123 1.095.883.598 1.203c.232 2.025-2.216-.8-3.006-.543c-1.143.523.44.735.086 1.14c-.872 1.278 1.515 1.732.906.141c.492 1.282.928 1.121 1.979.766c-2.332 1.067 1.724.996.701 2.117c-1.254.215-1.817.855-.805 1.867c-.027 1.197 1.082.952 1.56 1.235l.401-.149l.256-.105c-.01.001-.02.007-.031.008c1.4-.878-.206-3.72 1.473-3.955c-.025 1.271 2.155 1.891.689.449c-.92-.684 2.395.028 1.225.799c1.69 1.314-.044-1.64 1.119-1.022c.887.891 1.385-.083 1.539-.166c.37-.219 1.021-.205 1.205-.154c1.924 1.052-1.223 1.245-.967 2.375c.354.672-1.69.248-2.012.125c-1.36-1.916-2.588.688-3.818 1.385a91.643 91.643 0 0 0-.992 1.332c.19 1.947-1.006 3.482-1.057 5.517c.18 1.12.946 2.53 1.11 3.746c.756 1.414 2.414 1.894 3.855 2.3c1.097.351 1.762-1.065 2.766-1.348c.534-1.532 2.2-.959 2.97-1.268c-.53 1.691 1.369 2.378 1.334 4.062c-.477 1.06-.368 2.268-.47 3.407a18.742 18.742 0 0 0 1.933-14.362c-2.052-7.657-8.535-12.928-15.951-13.804m-6.084.406a11.26 11.26 0 0 0-1.113.14c-7.898 2.174-13.232 9.07-13.768 16.817c.133-.26.321-.421.58-.406c.887-.468.97 1.1 1.295 1.998c.794.114-.344-2.796 1.117-3.262a16.8 16.8 0 0 1 2.63-3.791c.569.212 1.584-.104 2.187-1.076c-.946.06-1.194-.608-.067-1.2c1.69-1.332-.62 1.13 1.006.962c1.826.045-.136-1.54.46-2.526c-.994-.347-.242-2.932-1.446-1.55c.41-.5-.562-.97-.18-1.358c.329.475 1.466.944 1.477-.357c.987-.092.488-1.423.8-2.295c2.168-1.485.81 1.365 1.028 2.54c1.372 2.04 1.837-1.419 3.185-1.863c1.68-.389 1.063-1.928.81-2.773m6.88.601c.41.394-.316.072-.136.008a.378.378 0 0 1 .137-.008m.058.563c.074-.013.263.007.625.082c.86.639-.95-.026-.625-.082m1.533.531c.265-.072 1.134.192 1.119.737c-.563.772-.312.373-.625-.233c-.595-.296-.654-.46-.494-.504m-6.838.653a2.032 2.032 0 0 0-.621.08c-.342.107-.558.322-.317.66c.254.14.56.107.828.037c1.197-.485.733-.766.11-.777m3.53.23c-.027 0-.014.055.081.211c.424.283-.003-.21-.082-.211m-1.243.033c-.019.015-.026.058-.01.145c.394.258.09-.209.01-.145m9.967.787c.066-.026.227.034.521.233c.15-.513 1.808.14.657.646c.015.964-1.464-.765-1.178-.879m-20.701.342c.131.076-.173.716-.725.967c-.684.97-.2-.224.133-.486c.242-.296.409-.437.508-.477c.037-.015.065-.015.084-.004m-1.936 1.258c.69-.132.392 1.642-.34 1.922c-.413.07-.519.78-.775 1.072c.007.148-.557-2.185.472-2.557c.272-.275.484-.406.643-.437m20.895.426c.226-.022 1.208.236 1.638.482c.333.41-.78-.182-.947-.08c-.605-.241-.786-.358-.73-.392a.1.1 0 0 1 .039-.01m2.8.183c.03-.023.14.006.387.139c.162.463-.475-.069-.387-.139m1.395 1.024a.158.158 0 0 0-.1.006c-.084.034-.149.156-.142.425c.717.133.481-.372.242-.431m-5.125.935c-.077.034-.162.206-.23.621c.613.421.46-.723.23-.62M47.66 48.318c.048-.012.136.007.28.084c-.2.256-.423-.047-.28-.084m-3.709.506c.054-.008.145.035.29.162c-.046.857-.524-.128-.29-.162m.283.951c.024-.012.055-.003.094.036c-.076 1.157-.26.05-.094-.036m13.967.887c-.096.017-.217.092-.342.268c.702.153.631-.319.342-.268m.93.063c-.042-.005-.112.043-.213.187c.224.3.34-.175.213-.187m-15.045.27c.046-.004.093.032.13.134c-.53.628-.331-.122-.13-.135m18.691.868a.055.055 0 0 0-.052.002c-.035.02-.074.073-.112.184c.3.288.276-.131.164-.186m1.565 1.096c-.08.021-.128.19-.047.639c.552-.015.222-.686.047-.639m-.805.639a1.456 1.456 0 0 0-.422.062c-.223.074-.343.216-.11.442l.077.013l.385-.103c.852-.26.505-.42.07-.414m-20.15 3.627c-.035.01-.034.103.054.35c.498.347.051-.38-.054-.35m-.04.693c-.036.003-.061.122-.048.453c.378.562.16-.464.049-.453m-.991.615c-.771.124.963 1.077 1.173 1.647c1.49.002.021.85 1.323 1.01c1.939.162.465-.967-.366-1.065c.168-.551-.967-.62-1.636-1.59a2.141 2.141 0 0 0-.494-.002m-.79.196c-.083-.021-.216.147-.431.62a1.073 1.073 0 0 1-.2-.324c.06.69.157 1.385.296 2.079c.556 1.045 1.068 2.294 1.808 3.146c.638 1.116.467-.458.799.467c.747 1.715.15 3.848 1.951 5.203c1.1 1.558 2.826 2.394 4.21 3.637a18.81 18.81 0 0 0 7.126 2.511c.31-.482.4-1.103.908-1.41c2.667-.066.747-2.87 2.26-4.027c.58-2.393-3.147-1.752-4.648-2.164c-2.285.256-2.795-2.47-4.944-2.514c-1.702.177-1.739-2.335-2.902-1.889c-.982.47-1.774-.843-2.322-.587c-.1.183-.977-.76-1.278.62c-1.872.083-1.179-2.278-2.23-3.214c-.337-.328-.152-2.092-.403-2.154m2.413.025a.04.04 0 0 0-.03.012c-.033.037-.002.161.184.406l.103.035c.004-.276-.175-.454-.257-.453m18.841.642c-.044.013-.094.06-.144.163c.42.385.336-.217.144-.163m-1.101.04c-.1.015-.08.09.256.273c.751-.05-.038-.307-.256-.273m1.154.5a.145.145 0 0 0-.088.015c-.065.03-.149.1-.252.233c.4.252.508-.213.34-.248m-.568.222c-.038.006-.078.075-.11.256c.3.27.221-.273.11-.256m-19.016.324c-.107.006-.09.127.264.473c.812.06-.028-.486-.264-.473m31.272.25c-.038.006-.08.073-.112.254c.3.27.223-.271.112-.254m-28.32.147a.2.2 0 0 0-.112.01c-.09.036-.146.156-.1.418c.827.105.489-.379.211-.428m1.622 1.055c-.041-.005-.036.174.075.689l.09.275c.517.725-.04-.95-.165-.964M12.5 80c4.172 0 7.5 3.328 7.5 7.5c0 4.172-3.328 7.5-7.5 7.5A7.462 7.462 0 0 1 5 87.5c0-4.172 3.328-7.5 7.5-7.5"
+                  color="#0056d6"
+                />
+              </svg>
+              <h3 class="mt-8 text-lg font-semibold text-black">
+                Theknik Komputer dan Jaringan
+              </h3>
+              <p class="mt-4 text-base text-gray-600">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit.
+              </p>
+            </div>
+          </div>
+          <!-- teknik mesin -->
+          <div
+            class="transition-all duration-200 bg-white hover:shadow-xl"
+            data-aos="fade-left"
+            data-aos-duration="3000"
+          >
+            <div class="py-10 px-9">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="3em"
+                height="3em"
+                viewBox="0 0 512 512"
+              >
+                <path
+                  fill="#0056d6"
+                  d="M324.563 39.156a17 17 0 0 0-3.438.407c-9.223 2.097-15.004 11.275-12.906 20.5c.006.032.022.06.03.093l-22.813 28.188l-3.25 4l1.688 4.906l13.906 40.563l-142.655 24.03c12.343 10.045 19.98 25.555 19.28 42.595a52 52 0 0 1-1.5 10.437l130.532-53.438l-.125-.968c5.93 7.795 15.912 12.005 26.375 10.124c14.91-2.68 24.684-16.683 22.063-31.5c-2.294-12.967-13.248-22.02-25.938-22.28c-1.812-.04-3.636.1-5.5.436c-3.173.57-6.11 1.66-8.75 3.156l-8.343-24.344l18.592-22.968c2.22.41 4.566.407 6.907-.125c9.223-2.1 15.003-11.277 12.905-20.5c-1.835-8.07-9.098-13.487-17.063-13.314zm115 29.032c-1.277.04-2.56.218-3.844.562a17.05 17.05 0 0 0-9.814 7.063l-38.687-6.126l-3.97-.624l-3.188 2.437l-38.656 29.688a46.2 46.2 0 0 1 16.53 10.874l30.314-23.28l37.656 5.968c3.954 5.975 11.386 9.05 18.688 7.094c9.138-2.45 14.542-11.83 12.094-20.97c-1.99-7.422-8.55-12.396-15.844-12.686c-.42-.017-.856-.014-1.28 0zm-39.188 57.906l-1.875.125l-30.375 2.093a45.1 45.1 0 0 1 2.625 18.562L397.938 145l28.03 9.5c.094.592.186 1.19.344 1.78c2.45 9.14 11.863 14.575 21 12.126s14.543-11.862 12.094-21c-2.448-9.136-11.832-14.54-20.97-12.094a17.1 17.1 0 0 0-4.717 2.063l-31.564-10.688zm-34.563 38.5a46.5 46.5 0 0 1-11.937 14.78l42.594 23.564a17.1 17.1 0 0 0 .56 5.53c2.45 9.14 11.832 14.574 20.97 12.126c9.138-2.45 14.542-11.862 12.094-21c-2.448-9.136-11.833-14.542-20.97-12.094c-.408.11-.793.238-1.187.375l-42.125-23.28zm-244.125 4.187c-15.272.178-28.172 10.388-32.156 24.532l63.626-4.125c-4.89-11.59-16.144-19.853-29.72-20.375a35 35 0 0 0-1.75-.03zm33.626 39l-65.688 4.282c3.957 13.412 16.086 23.334 31 23.907c17.34.664 31.975-11.602 34.688-28.19zm8.53 26c-10.032 13.228-26.167 21.558-43.937 20.876a52 52 0 0 1-3.312-.22l53.47 84.19c8.282-19.396 26.015-33.782 47.155-37.532l-53.376-67.313zm63.813 85.064c-23.575.275-42.9 18.79-43.875 42.5a44.1 44.1 0 0 0 3.5 19.187l71.907-49.217c-7.55-7.335-17.78-11.998-29.25-12.438c-.768-.03-1.52-.04-2.28-.03zm41.844 28.03l-71.375 48.876c7.424 6.734 17.208 10.987 28.125 11.406c24.605.945 45.182-17.993 46.188-42.47c.258-6.297-.803-12.316-2.938-17.81zm-86.406 60.188l-7.47 43.438H280l-9.03-41.563c-11.892 11.045-27.98 17.576-45.408 16.907c-16.657-.64-31.6-7.736-42.468-18.78zm-38.53 62.125v24.75h169.374v-24.75H144.563z"
+                />
+              </svg>
+              <h3 class="mt-8 text-lg font-semibold text-black">
+                Tekhnik Mesin
+              </h3>
+              <p class="mt-4 text-base text-gray-600">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- about -->
+    <section class="py-10 bg-blue-600 sm:py-16 lg:py-24" id="about">
+      <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
+        <div class="flex items-end justify-between">
+          <div class="flex-1 text-center lg:text-left">
+            <h2
+              class="text-3xl font-bold leading-tight text-white sm:text-4xl lg:text-5xl"
+            >
+              Latest from Kejuruan
+            </h2>
+            <p
+              class="max-w-xl mx-auto mt-4 text-base leading-relaxed text-white lg:mx-0"
+            >
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis.
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="grid max-w-md grid-cols-1 gap-6 mx-auto mt-8 lg:mt-16 lg:grid-cols-4 lg:max-w-full"
+        >
+          <!-- card 1 -->
+          <div
+            class="overflow-hidden bg-white rounded shadow"
+            data-aos="fade-right"
+            data-aos-duration="3000"
+          >
+            <div class="p-5">
+              <div class="relative">
+                <a
+                  href="/src/aphp.html"
+                  title=""
+                  class="block aspect-w-4 aspect-h-3"
+                >
+                  <img
+                    class="object-cover w-full h-full"
+                    src="/src/assets/aphp.jpg"
+                    alt=""
+                  />
+                </a>
+
+                <div class="absolute top-4 left-4">
+                  <span
+                    class="px-4 py-2 text-xs font-semibold tracking-widest text-gray-900 uppercase bg-white rounded-full"
+                  >
+                    APHP
+                  </span>
+                </div>
+              </div>
+              <span
+                class="block mt-6 text-sm font-semibold tracking-widest text-gray-500 uppercase"
+              >
+                February 29, 2016
+              </span>
+              <p class="mt-5 text-2xl font-semibold">
+                <a href="#" title="" class="text-black">
+                  Agribisnis Pengolahan Hasil Pertanian
+                </a>
+              </p>
+              <p class="mt-4 text-base text-gray-600">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit.
+              </p>
+              <a
+                href="/src/aphp.html"
+                title=""
+                class="inline-flex items-center justify-center pb-0.5 mt-5 text-base font-semibold text-blue-600 transition-all duration-200 border-b-2 border-transparent hover:border-blue-600 focus:border-blue-600"
+              >
+                Continue Reading
+                <svg
+                  class="w-5 h-5"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+          <!-- card 2 -->
+          <div
+            class="overflow-hidden bg-white rounded shadow"
+            data-aos="fade-up"
+            data-aos-duration="3000"
+          >
+            <div class="p-5">
+              <div class="relative">
+                <a
+                  href="/src/dkv.html"
+                  title=""
+                  class="block aspect-w-4 aspect-h-3"
+                >
+                  <img
+                    class="object-cover w-full h-full"
+                    src="/src/assets/multimedia.jpg"
+                    alt=""
+                  />
+                </a>
+
+                <div class="absolute top-4 left-4">
+                  <span
+                    class="px-4 py-2 text-xs font-semibold tracking-widest text-gray-900 uppercase bg-white rounded-full"
+                  >
+                    DESAIN KOMUNIKASI Visual
+                  </span>
+                </div>
+              </div>
+              <span
+                class="block mt-6 text-sm font-semibold tracking-widest text-gray-500 uppercase"
+              >
+                February 29, 2016
+              </span>
+              <p class="mt-5 text-2xl font-semibold">
+                <a href="#" title="" class="text-black">
+                  Desain Komunikasi Visual
+                </a>
+              </p>
+              <p class="mt-4 text-base text-gray-600">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit.
+              </p>
+              <a
+                href="/src/dkv.html"
+                title=""
+                class="inline-flex items-center justify-center pb-0.5 mt-5 text-base font-semibold text-blue-600 transition-all duration-200 border-b-2 border-transparent hover:border-blue-600 focus:border-blue-600"
+              >
+                Continue Reading
+                <svg
+                  class="w-5 h-5"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+          <!-- card 3 -->
+          <div
+            class="overflow-hidden bg-white rounded shadow"
+            data-aos="fade-down"
+            data-aos-duration="3000"
+          >
+            <div class="p-5">
+              <div class="relative">
+                <a
+                  href="/src/tkj.html"
+                  title=""
+                  class="block aspect-w-4 aspect-h-3"
+                >
+                  <img
+                    class="object-cover w-full h-full"
+                    src="/src/assets/tkj.jpg"
+                    alt=""
+                  />
+                </a>
+
+                <div class="absolute top-4 left-4">
+                  <span
+                    class="px-4 py-2 text-xs font-semibold tracking-widest text-gray-900 uppercase bg-white rounded-full"
+                  >
+                    TKJ
+                  </span>
+                </div>
+              </div>
+              <span
+                class="block mt-6 text-sm font-semibold tracking-widest text-gray-500 uppercase"
+              >
+                February 29, 2016
+              </span>
+              <p class="mt-5 text-2xl font-semibold">
+                <a href="/src/tkj.html" title="" class="text-black">
+                  Teknik Komputer dan Jaringan
+                </a>
+              </p>
+              <p class="mt-4 text-base text-gray-600">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit.
+              </p>
+              <a
+                href="/src/tkj.html"
+                title=""
+                class="inline-flex items-center justify-center pb-0.5 mt-5 text-base font-semibold text-blue-600 transition-all duration-200 border-b-2 border-transparent hover:border-blue-600 focus:border-blue-600"
+              >
+                Continue Reading
+                <svg
+                  class="w-5 h-5"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+          <!-- card 4 -->
+          <div
+            class="overflow-hidden bg-white rounded shadow"
+            data-aos="fade-left"
+            data-aos-duration="3000"
+          >
+            <div class="p-5">
+              <div class="relative">
+                <a
+                  href="/src/tkm.html"
+                  title=""
+                  class="block aspect-w-4 aspect-h-3"
+                >
+                  <img
+                    class="object-cover w-full h-full"
+                    src="/src/assets/ tkm.jpg"
+                    alt=""
+                  />
+                </a>
+
+                <div class="absolute top-4 left-4">
+                  <span
+                    class="px-4 py-2 text-xs font-semibold tracking-widest text-gray-900 uppercase bg-white rounded-full"
+                  >
+                    TEKNIK SEPEDA MOTOR
+                  </span>
+                </div>
+              </div>
+              <span
+                class="block mt-6 text-sm font-semibold tracking-widest text-gray-500 uppercase"
+              >
+                February 29, 2016
+              </span>
+              <p class="mt-5 text-2xl font-semibold">
+                <a href="/src/tkm.html" title="" class="text-black">
+                  Teknik Sepeda Motor
+                </a>
+              </p>
+              <p class="mt-4 text-base text-gray-600">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit.
+              </p>
+              <a
+                href="/src/tkm.html"
+                title=""
+                class="inline-flex items-center justify-center pb-0.5 mt-5 text-base font-semibold text-blue-600 transition-all duration-200 border-b-2 border-transparent hover:border-blue-600 focus:border-blue-600"
+              >
+                Continue Reading
+                <svg
+                  class="w-5 h-5"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- partner -->
+    <section class="py-10 bg-blue-100 sm:py-16 lg:py-24" id="partner">
+      <div
+        class="max-w-5xl px-4 mx-auto sm:px-6 lg:px-8"
+        data-aos="zoom-in"
+        data-aos-duration="3000"
+      >
+        <div
+          class="text-center inline-flex px-4 py-1.5 mx-auto rounded-full bg-gradient-to-r from-fuchsia-600 to-blue-600"
+        >
+          <h2
+            class="text-xs font-semibold tracking-widest text-white uppercase"
+          >
+            Partner of Smk Negeri 1 Simpang Raya
+          </h2>
+        </div>
+
+        <div
+          class="grid items-center grid-cols-2 gap-10 mt-12 md:grid-cols-4 sm:gap-y-16"
+        >
+          <div>
+            <img
+              class="object-contain w-auto mx-auto h-14"
+              src="https://cdn.rareblocks.xyz/collection/celebration/images/logos/2/logo-1.png"
+              alt=""
+            />
+          </div>
+
+          <div>
+            <img
+              class="object-contain w-auto mx-auto h-14"
+              src="https://cdn.rareblocks.xyz/collection/celebration/images/logos/2/logo-2.png"
+              alt=""
+            />
+          </div>
+
+          <div>
+            <img
+              class="object-contain w-auto h-10 mx-auto"
+              src="https://cdn.rareblocks.xyz/collection/celebration/images/logos/2/logo-3.png"
+              alt=""
+            />
+          </div>
+
+          <div>
+            <img
+              class="object-contain w-auto mx-auto h-14"
+              src="https://cdn.rareblocks.xyz/collection/celebration/images/logos/2/logo-4.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- jumlah smk -->
+    <section class="py-10 bg-blue-600 sm:py-16 lg:py-24" id="siswa">
+      <div class="max-w-5xl px-4 mx-auto sm:px-6 lg:px-8">
+        <div class="max-w-xl mx-auto text-center">
+          <h2
+            class="text-3xl font-bold text-white sm:text-4xl sm:leading-tight"
+          >
+            SMK NEGERI 1 SIMPANG RAYA SUDAH BERDIRI SEJAK 2016
+          </h2>
+        </div>
+
+        <div
+          class="grid grid-cols-1 gap-6 mt-8 lg:mt-16 sm:grid-cols-2 md:gap-8"
+        >
+          <!-- card 1 -->
+          <div
+            class="overflow-hidden bg-white rounded-lg"
+            data-aos="fade-down"
+            data-aos-duration="3000"
+          >
+            <div class="px-7 py-9">
+              <div class="flex items-center">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="4em"
+                  height="4em"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill="#0056d6"
+                    d="M13.07 10.41a5 5 0 0 0 0-5.82A3.4 3.4 0 0 1 15 4a3.5 3.5 0 0 1 0 7a3.4 3.4 0 0 1-1.93-.59M5.5 7.5A3.5 3.5 0 1 1 9 11a3.5 3.5 0 0 1-3.5-3.5m2 0A1.5 1.5 0 1 0 9 6a1.5 1.5 0 0 0-1.5 1.5M16 17v2H2v-2s0-4 7-4s7 4 7 4m-2 0c-.14-.78-1.33-2-5-2s-4.93 1.31-5 2m11.95-4A5.32 5.32 0 0 1 18 17v2h4v-2s0-3.63-6.06-4Z"
+                  />
+                </svg>
+                <h3 class="ml-2 text-6xl font-bold text-gray-900">29</h3>
+                <h5 class="ml-2 text-4xl font-bold text-gray-600">Guru</h5>
+              </div>
+              <p class="mt-6 text-base text-gray-600 md:max-w-xs">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequa.
+              </p>
+            </div>
+          </div>
+          <!-- card 2 -->
+          <div
+            class="overflow-hidden bg-white rounded-lg"
+            data-aos="fade-left"
+            data-aos-duration="3000"
+          >
+            <div class="px-7 py-9">
+              <div class="flex items-center">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="4em"
+                  height="4em"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill="#0056d6"
+                    d="M13.07 10.41a5 5 0 0 0 0-5.82A3.4 3.4 0 0 1 15 4a3.5 3.5 0 0 1 0 7a3.4 3.4 0 0 1-1.93-.59M5.5 7.5A3.5 3.5 0 1 1 9 11a3.5 3.5 0 0 1-3.5-3.5m2 0A1.5 1.5 0 1 0 9 6a1.5 1.5 0 0 0-1.5 1.5M16 17v2H2v-2s0-4 7-4s7 4 7 4m-2 0c-.14-.78-1.33-2-5-2s-4.93 1.31-5 2m11.95-4A5.32 5.32 0 0 1 18 17v2h4v-2s0-3.63-6.06-4Z"
+                  />
+                </svg>
+                <h3 class="ml-2 text-6xl font-bold text-gray-900">238</h3>
+                <h5 class="ml-2 text-4xl font-bold text-gray-600">Siswa</h5>
+              </div>
+              <p class="mt-6 text-base text-gray-600 md:max-w-xs">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequa.
+              </p>
+            </div>
+          </div>
+          <!-- card 3 -->
+          <div
+            class="overflow-hidden bg-white rounded-lg"
+            data-aos="fade-right"
+            data-aos-duration="3000"
+          >
+            <div class="px-7 py-9">
+              <div class="flex items-center">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="4em"
+                  height="4em"
+                  viewBox="0 0 48 48"
+                >
+                  <g
+                    fill="none"
+                    stroke="#0433ff"
+                    stroke-linejoin="round"
+                    stroke-width="4"
+                  >
+                    <path d="m20 8l4-4l4 4v36h-8z" />
+                    <path
+                      stroke-linecap="round"
+                      d="m12 20l8-8v32h-8zM4 35l8-7v16H4zm24-23l8 8v24h-8zm8 16l8 6.5V44h-8z"
+                    />
+                  </g>
+                </svg>
+                <h3 class="ml-2 text-6xl font-bold text-gray-900">31</h3>
+                <h5 class="ml-2 text-2xl font-bold text-gray-600">
+                  Ruang <br />
+                  Bangunan
+                </h5>
+              </div>
+              <p class="mt-6 text-base text-gray-600 md:max-w-xs">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequa.
+              </p>
+            </div>
+          </div>
+          <!-- card 4 -->
+          <div
+            class="overflow-hidden bg-white rounded-lg"
+            data-aos="fade-up"
+            data-aos-duration="3000"
+          >
+            <div class="px-7 py-9">
+              <div class="flex items-center">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="4em"
+                  height="4em"
+                  viewBox="0 0 2048 2048"
+                >
+                  <path
+                    fill="#0433ff"
+                    d="M1664 512h256v1536H256V512h256V384h128v128h896V384h128zm128 128h-128v128h128zm-256 0H640v128h896zm-1024 0H384v128h128zM384 1920h1408V896H384zM256 384V256H128v1408H0V128h256V0h128v128h896V0h128v128h256v128h-256v128h-128V256H384v128zm384 1024v-128h128v128zm256 0v-128h128v128zm256 0v-128h128v128zm256 0v-128h128v128zm-768 256v-128h128v128zm256 0v-128h128v128zm256 0v-128h128v128zm-256-512v-128h128v128zm256 0v-128h128v128zm256 0v-128h128v128z"
+                  />
+                </svg>
+                <h3 class="ml-2 text-6xl font-bold text-gray-900">8</h3>
+                <h5 class="ml-2 text-4xl font-bold text-gray-600">Tahun</h5>
+              </div>
+              <p class="mt-6 text-base text-gray-600 md:max-w-xs">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequa.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- alumni -->
+    <section class="py-10 bg-blue-100 sm:py-16 lg:py-24" id="alumni">
+      <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+        <div class="max-w-2xl mx-auto text-center">
+          <h2
+            class="text-3xl font-bold leading-tight text-gray-800 sm:text-4xl lg:text-5xl"
+          >
+            Trusted by <span class="text-blue-600">SMKN1SIMRA</span> team of smk
+            negeri 1 simpang raya
+          </h2>
+        </div>
+
+        <div
+          class="grid max-w-xl grid-cols-1 mx-auto mt-8 text-center lg:max-w-full sm:mt-12 lg:mt-20 lg:grid-cols-3 gap-x-6 xl:gap-x-12 gap-y-6"
+        >
+          <!-- card  1 -->
+          <div
+            class="overflow-hidden bg-white rounded-md shadow"
+            data-aos="fade-down"
+            data-aos-duration="1000"
+          >
+            <div class="px-8 py-12">
+              <div class="relative w-24 h-24 mx-auto">
+                <img
+                  class="relative object-cover w-24 h-24 mx-auto rounded-full"
+                  src="https://cdn.rareblocks.xyz/collection/celebration/images/testimonials/1/avatar-1.jpg"
+                  alt=""
+                />
+                <div
+                  class="absolute top-0 right-0 flex items-center justify-center bg-blue-600 rounded-full w-7 h-7"
+                >
+                  <svg
+                    class="w-4 h-4 text-white"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M20.309 17.708C22.196 15.66 22.006 13.03 22 13V5a1 1 0 0 0-1-1h-6c-1.103 0-2 .897-2 2v7a1 1 0 0 0 1 1h3.078a2.89 2.89 0 0 1-.429 1.396c-.508.801-1.465 1.348-2.846 1.624l-.803.16V20h1c2.783 0 4.906-.771 6.309-2.292zm-11.007 0C11.19 15.66 10.999 13.03 10.993 13V5a1 1 0 0 0-1-1h-6c-1.103 0-2 .897-2 2v7a1 1 0 0 0 1 1h3.078a2.89 2.89 0 0 1-.429 1.396c-.508.801-1.465 1.348-2.846 1.624l-.803.16V20h1c2.783 0 4.906-.771 6.309-2.292z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+              <blockquote class="mt-7">
+                <p class="text-lg text-black">
+                  “Amet minim mollit non deserunt ullam co est sit aliqua dolor
+                  do amet sint. Velit officia consequat duis enim velit mollit.
+                  Exercitation veniam consequat”
+                </p>
+              </blockquote>
+              <p class="text-base font-semibold tex-tblack mt-9">
+                Jenny Wilson
+              </p>
+              <p class="mt-1 text-base text-gray-600">Kepala Sekolah</p>
+            </div>
+          </div>
+          <!-- card 2 -->
+          <div
+            class="overflow-hidden bg-white rounded-md shadow"
+            data-aos="fade-up"
+            data-aos-duration="3000"
+          >
+            <div class="px-8 py-12">
+              <div class="relative w-24 h-24 mx-auto">
+                <img
+                  class="relative object-cover w-24 h-24 mx-auto rounded-full"
+                  src="https://cdn.rareblocks.xyz/collection/celebration/images/testimonials/1/avatar-2.jpg"
+                  alt=""
+                />
+                <div
+                  class="absolute top-0 right-0 flex items-center justify-center bg-blue-600 rounded-full w-7 h-7"
+                >
+                  <svg
+                    class="w-4 h-4 text-white"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M20.309 17.708C22.196 15.66 22.006 13.03 22 13V5a1 1 0 0 0-1-1h-6c-1.103 0-2 .897-2 2v7a1 1 0 0 0 1 1h3.078a2.89 2.89 0 0 1-.429 1.396c-.508.801-1.465 1.348-2.846 1.624l-.803.16V20h1c2.783 0 4.906-.771 6.309-2.292zm-11.007 0C11.19 15.66 10.999 13.03 10.993 13V5a1 1 0 0 0-1-1h-6c-1.103 0-2 .897-2 2v7a1 1 0 0 0 1 1h3.078a2.89 2.89 0 0 1-.429 1.396c-.508.801-1.465 1.348-2.846 1.624l-.803.16V20h1c2.783 0 4.906-.771 6.309-2.292z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+              <blockquote class="mt-7">
+                <p class="text-lg text-black">
+                  “Amet minim mollit non deserunt ullam co est sit aliqua dolor
+                  do amet sint. Velit officia consequat duis enim velit mollit.
+                  Exercitation veniam consequat”
+                </p>
+              </blockquote>
+              <p class="text-base font-semibold tex-tblack mt-9">Robert Fox</p>
+              <p class="mt-1 text-base text-gray-600">Operator</p>
+            </div>
+          </div>
+          <!-- card 3 -->
+          <div
+            class="overflow-hidden bg-white rounded-md shadow"
+            data-aos="fade-down"
+            data-aos-duration="3000"
+          >
+            <div class="px-8 py-12">
+              <div class="relative w-24 h-24 mx-auto">
+                <img
+                  class="relative object-cover w-24 h-24 mx-auto rounded-full"
+                  src="https://cdn.rareblocks.xyz/collection/celebration/images/testimonials/1/avatar-3.jpg"
+                  alt=""
+                />
+                <div
+                  class="absolute top-0 right-0 flex items-center justify-center bg-blue-600 rounded-full w-7 h-7"
+                >
+                  <svg
+                    class="w-4 h-4 text-white"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M20.309 17.708C22.196 15.66 22.006 13.03 22 13V5a1 1 0 0 0-1-1h-6c-1.103 0-2 .897-2 2v7a1 1 0 0 0 1 1h3.078a2.89 2.89 0 0 1-.429 1.396c-.508.801-1.465 1.348-2.846 1.624l-.803.16V20h1c2.783 0 4.906-.771 6.309-2.292zm-11.007 0C11.19 15.66 10.999 13.03 10.993 13V5a1 1 0 0 0-1-1h-6c-1.103 0-2 .897-2 2v7a1 1 0 0 0 1 1h3.078a2.89 2.89 0 0 1-.429 1.396c-.508.801-1.465 1.348-2.846 1.624l-.803.16V20h1c2.783 0 4.906-.771 6.309-2.292z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+              <blockquote class="mt-7">
+                <p class="text-lg text-black">
+                  “Amet minim mollit non deserunt ullam co est sit aliqua dolor
+                  do amet sint. Velit officia consequat duis enim velit mollit.
+                  Exercitation veniam consequat”
+                </p>
+              </blockquote>
+              <p class="text-base font-semibold tex-tblack mt-9">
+                Kristin Watson
+              </p>
+              <p class="mt-1 text-base text-gray-600">UX Designer at Google</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact -->
+    <section class="py-10 bg-blue-200 sm:py-16 lg:py-20" id="contact">
+      <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
+        <div
+          class="grid grid-cols-1 lg:grid-cols-3 gap-y-12 lg:gap-x-8 xl:gap-x-20"
+        >
+          <!-- card 1 -->
+          <div
+            class="flex items-start"
+            data-aos="fade-right"
+            data-aos-duration="3000"
+          >
+            <svg
+              class="flex-shrink-0 w-10 h-10 text-blue-600"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1"
+                d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
+              />
+            </svg>
+            <div class="ml-6">
+              <p class="text-base font-medium text-black/50">Call us</p>
+              <p class="mt-4 text-xl font-medium text-gray-900">
+                (316) 555-0116
+              </p>
+              <p class="mt-1 text-xl font-medium text-gray-900">
+                (316) 555-0117
+              </p>
+            </div>
+          </div>
+          <!-- card 2 -->
+          <div
+            class="flex items-start"
+            data-aos="zoom-in"
+            data-aos-duration="3000"
+          >
+            <svg
+              class="flex-shrink-0 w-10 h-10 text-blue-600"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1"
+                d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+              />
+            </svg>
+            <div class="ml-6">
+              <p class="text-base font-medium text-black/50">Email us</p>
+              <p class="mt-4 text-xl font-medium text-gray-900">
+                smkn1simra@gmail.com
+              </p>
+              <p class="mt-1 text-xl font-medium text-gray-900">
+                smkn1simra2@gmail.com
+              </p>
+            </div>
+          </div>
+          <!-- card 3 -->
+          <div
+            class="flex items-start"
+            data-aos="fade-left"
+            data-aos-duration="3000"
+          >
+            <svg
+              class="flex-shrink-0 w-10 h-10 text-blue-600"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1"
+                d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
+              />
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1"
+                d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
+              />
+            </svg>
+            <div class="ml-6">
+              <p class="text-base font-medium text-black/50">Location</p>
+              <p class="mt-4 text-xl font-medium leading-relaxed text-gray-900">
+                spf sumbermulya kec.simpangraya kab.banggai
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <section class="py-10 bg-blue-50 sm:pt-16 lg:pt-24">
+      <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
+        <div class="grid grid-cols-2 md:col-span-3 lg:grid-cols-4 gap-y-16">
+          <div class="col-span-2 md:col-span-3 lg:col-span-2 lg:pr-8">
+            <img
+              class="w-auto h-16"
+              src="/src/assets/logo-smk-removebg-preview.png"
+              alt=""
+            />
+
+            <p class="text-base leading-relaxed text-gray-600 mt-7">
+              SMKN 1 Simpang Raya pasti bisa
+            </p>
+
+            <ul class="flex items-center space-x-3 mt-9">
+              <li>
+                <a
+                  href="#"
+                  title=""
+                  class="flex items-center justify-center text-white transition-all duration-200 bg-gray-800 rounded-full w-7 h-7 hover:bg-blue-600 focus:bg-blue-600"
+                >
+                  <svg
+                    class="w-4 h-4"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M19.633 7.997c.013.175.013.349.013.523 0 5.325-4.053 11.461-11.46 11.461-2.282 0-4.402-.661-6.186-1.809.324.037.636.05.973.05a8.07 8.07 0 0 0 5.001-1.721 4.036 4.036 0 0 1-3.767-2.793c.249.037.499.062.761.062.361 0 .724-.05 1.061-.137a4.027 4.027 0 0 1-3.23-3.953v-.05c.537.299 1.16.486 1.82.511a4.022 4.022 0 0 1-1.796-3.354c0-.748.199-1.434.548-2.032a11.457 11.457 0 0 0 8.306 4.215c-.062-.3-.1-.611-.1-.923a4.026 4.026 0 0 1 4.028-4.028c1.16 0 2.207.486 2.943 1.272a7.957 7.957 0 0 0 2.556-.973 4.02 4.02 0 0 1-1.771 2.22 8.073 8.073 0 0 0 2.319-.624 8.645 8.645 0 0 1-2.019 2.083z"
+                    ></path>
+                  </svg>
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="#"
+                  title=""
+                  class="flex items-center justify-center text-white transition-all duration-200 bg-gray-800 rounded-full w-7 h-7 hover:bg-blue-600 focus:bg-blue-600"
+                >
+                  <svg
+                    class="w-4 h-4"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M13.397 20.997v-8.196h2.765l.411-3.209h-3.176V7.548c0-.926.258-1.56 1.587-1.56h1.684V3.127A22.336 22.336 0 0 0 14.201 3c-2.444 0-4.122 1.492-4.122 4.231v2.355H7.332v3.209h2.753v8.202h3.312z"
+                    ></path>
+                  </svg>
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="#"
+                  title=""
+                  class="flex items-center justify-center text-white transition-all duration-200 bg-gray-800 rounded-full w-7 h-7 hover:bg-blue-600 focus:bg-blue-600"
+                >
+                  <svg
+                    class="w-4 h-4"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M11.999 7.377a4.623 4.623 0 1 0 0 9.248 4.623 4.623 0 0 0 0-9.248zm0 7.627a3.004 3.004 0 1 1 0-6.008 3.004 3.004 0 0 1 0 6.008z"
+                    ></path>
+                    <circle cx="16.806" cy="7.207" r="1.078"></circle>
+                    <path
+                      d="M20.533 6.111A4.605 4.605 0 0 0 17.9 3.479a6.606 6.606 0 0 0-2.186-.42c-.963-.042-1.268-.054-3.71-.054s-2.755 0-3.71.054a6.554 6.554 0 0 0-2.184.42 4.6 4.6 0 0 0-2.633 2.632 6.585 6.585 0 0 0-.419 2.186c-.043.962-.056 1.267-.056 3.71 0 2.442 0 2.753.056 3.71.015.748.156 1.486.419 2.187a4.61 4.61 0 0 0 2.634 2.632 6.584 6.584 0 0 0 2.185.45c.963.042 1.268.055 3.71.055s2.755 0 3.71-.055a6.615 6.615 0 0 0 2.186-.419 4.613 4.613 0 0 0 2.633-2.633c.263-.7.404-1.438.419-2.186.043-.962.056-1.267.056-3.71s0-2.753-.056-3.71a6.581 6.581 0 0 0-.421-2.217zm-1.218 9.532a5.043 5.043 0 0 1-.311 1.688 2.987 2.987 0 0 1-1.712 1.711 4.985 4.985 0 0 1-1.67.311c-.95.044-1.218.055-3.654.055-2.438 0-2.687 0-3.655-.055a4.96 4.96 0 0 1-1.669-.311 2.985 2.985 0 0 1-1.719-1.711 5.08 5.08 0 0 1-.311-1.669c-.043-.95-.053-1.218-.053-3.654 0-2.437 0-2.686.053-3.655a5.038 5.038 0 0 1 .311-1.687c.305-.789.93-1.41 1.719-1.712a5.01 5.01 0 0 1 1.669-.311c.951-.043 1.218-.055 3.655-.055s2.687 0 3.654.055a4.96 4.96 0 0 1 1.67.311 2.991 2.991 0 0 1 1.712 1.712 5.08 5.08 0 0 1 .311 1.669c.043.951.054 1.218.054 3.655 0 2.436 0 2.698-.043 3.654h-.011z"
+                    ></path>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <p
+              class="text-sm font-semibold tracking-widest text-gray-400 uppercase"
+            >
+              Company
+            </p>
+
+            <ul class="mt-6 space-y-4">
+              <li>
+                <a
+                  href="#"
+                  title=""
+                  class="flex text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
+                >
+                  About
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="#"
+                  title=""
+                  class="flex text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
+                >
+                  Features
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="#"
+                  title=""
+                  class="flex text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
+                >
+                  Works
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="#"
+                  title=""
+                  class="flex text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
+                >
+                  Career
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <p
+              class="text-sm font-semibold tracking-widest text-gray-400 uppercase"
+            >
+              Help
+            </p>
+
+            <ul class="mt-6 space-y-4">
+              <li>
+                <a
+                  href="#"
+                  title=""
+                  class="flex text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
+                >
+                  Customer Support
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="#"
+                  title=""
+                  class="flex text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
+                >
+                  Delivery Details
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="#"
+                  title=""
+                  class="flex text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
+                >
+                  Terms & Conditions
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="#"
+                  title=""
+                  class="flex text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
+                >
+                  Privacy Policy
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <hr class="mt-16 mb-10 border-gray-200" />
+
+        <p class="text-sm text-center text-gray-600">
+          © Copyright 2024, All Rights Reserved by Rivnll
+        </p>
+      </div>
+    </section>
+    <!-- script -->
+    <script src="/src/main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
